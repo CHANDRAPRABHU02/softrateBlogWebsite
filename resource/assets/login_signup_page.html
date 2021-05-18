@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styleForLoginPage.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div id = "toggleButton">
+        <button id = "signupbtntoggle" onclick="gotosignup()">Sign up</button>
+        <button id = "loginbtntoggle"onclick="gotologin()">Login in</button>
+      </div>
+      <div id="signupdiv">
+        <form action="">
+          <input type="text" placeholder="First Name" />
+          <br />
+          <input type="text" placeholder="Last Name" />
+          <br />
+          <input type="text" placeholder="Email address" />
+          <br />
+          <input type="password" placeholder="Password" />
+          <button id = "createAccBtn">Create account</button>
+        </form>
+      </div>
+      <div id="logindiv">
+        <form action="">
+          <input type="text" placeholder="User Name" />
+          <br />
+          <input type="password" placeholder="Password" />
+          <button id = "createAccBtn">Login</button>
+        </form>
+      </div>
+    </div>
+    <script src="./jsForloginpage.js"></script>
+</html>

@@ -1,0 +1,120 @@
+.x-btn:focus,
+.button:focus,
+[type="submit"]:focus {
+  outline: none;
+}
+/* #main-container { background-color: red; } */
+.main-part-front {
+  /* background-color: blue; */
+  width: 96vw;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+  /* border-radius: 15%; */
+}
+#main-container {
+  /* border-radius: 50%; */
+}
+#front-left-btn {
+  font-size: 30px;
+  border: 3px solid black;
+  border-radius: 50%;
+  position: absolute;
+  left: 2px;
+  top: 44vh;
+  /* background-color: red; */
+  outline: none;
+}
+#front-right-btn {
+  font-size: 30px;
+  border: 3px solid black;
+  border-radius: 50%;
+  position: absolute;
+  right: -15px;
+  top: 44vh;
+  /* background-color: red; */
+  outline: none;
+}
+@keyframes right-btn-animation {
+  0% {
+    background-color: blue;
+    padding: 5px;
+  }
+  25% {
+    padding: 10px;
+    top: 42vh;
+  }
+  50% {
+    padding: 15px;
+    top: 40vh;
+  }
+  75% {
+    top: 42vh;
+    padding: 20px;
+  }
+}
+#front-left-btn-outer :hover {
+  background-color: blue;
+
+  /* animation-name: right-btn-animation;
+  animation-duration: 4s; */
+}
+#front-right-btn-outer :hover {
+  background-color: blue;
+
+  /* animation-name: right-btn-animation;
+  animation-duration: 4s; */
+}
+
+.front-div {
+  left: 0px;
+  font-size: 45px;
+  width: 94vw;
+  height: 87vh;
+  /* background-color: blue; */
+  /* padding: 10px; */
+  margin: 30px;
+  box-sizing: border-box;
+  position: absolute;
+}
+.front-div > img {
+  width: 50vw;
+  height: 70vh;
+  margin: 20px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.content-f {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  color: black;
+  width: 50vw;
+  /* height: 70vh; */
+  position: absolute;
+  right: 60px;
+  bottom: 20px;
+  font-family: "Lobster", cursive;
+  font-size: 90px;
+  padding: 30px;
+}
+
+/* #part-1 :hover {
+  background-color: red;
+} */
+
+#part-1 {
+  color: brown;
+  display: block;
+  /* border-radius: 1%; */
+}
+#part-2 {
+  color: brown;
+  display: none;
+  /* border-radius: 7%; */
+}
+#part-3 {
+  color: brown;
+  display: none;
+  /* border-radius: 10%; */
+}

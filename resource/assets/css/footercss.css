@@ -1,0 +1,127 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+.news {
+  padding: 20px;
+  background-color: #000;
+  color:#fff;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+footer {
+font-family: poppins;
+margin: 0;
+display: grid;
+font-size: 19px;
+}
+
+.shan-footer {
+display: flex;
+flex-flow: row wrap;
+padding: 50px;
+color: #fff;
+background-color: black;
+}
+
+.shan-footer > * {
+flex:  1 100%;
+}
+
+.l-shan-footer {
+margin-right: 1.25em;
+margin-bottom: 2em;
+}
+
+footer h1,h2 {
+color: orangered;
+font-weight: 400;
+font-size: 22px;
+}
+
+.shan-footer ul {
+list-style: none;
+padding-left: 0;
+}
+
+.shan-footer li {
+line-height: 2em;
+}
+
+.shan-footer a {
+text-decoration: none;
+}
+
+.r-shan-footer {
+display: flex;
+flex-flow: row wrap;
+}
+
+.r-shan-footer > * {
+flex: 1 50%;
+margin-right: 1.25em;
+}
+
+.shan-box a {
+color: #999;
+}
+
+.h-shan-box {
+column-count: 2;
+column-gap: 1.25em;
+}
+
+.b-shan-footer {
+text-align: center;
+color: #999;
+padding-top: 50px;
+}
+
+.l-shan-footer p {
+padding-right: 20%;
+color: #999;
+}   
+
+@media screen and (min-width: 600px) {
+.r-shan-footer > * {
+flex: 1;
+}
+
+.shan-features {
+flex-grow: 2;
+}
+
+.l-shan-footer {
+flex: 1 0px;
+}
+
+.r-shan-footer {
+flex: 2 0px;
+}
+}

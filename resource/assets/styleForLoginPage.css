@@ -1,0 +1,66 @@
+button:focus,
+[type="submit"]:focus {
+  outline: none;
+}
+body {
+}
+#login-container {
+  display: none;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#login-main-container {
+  background-color: white;
+  position: absolute;
+  top: 33vh;
+  /* bottom: 30vh; */
+  left: 33vw;
+  right: 33vw;
+  background-color: cornsilk;
+}
+#createAccBtn,
+#loginbtn {
+  background-color: burlywood;
+  margin-right: 4vw;
+  margin-top: 2vh;
+  float: right;
+  width: 10vw;
+  height: 4vh;
+  margin-bottom: 20px;
+}
+#toggleButton {
+  position: relative;
+  height: 5vh;
+}
+#toggleButton > button {
+  background-color: burlywood;
+  width: 13vw;
+  height: 30px;
+  position: absolute;
+}
+#signupbtntoggle {
+  left: 3vw;
+  top: 10px;
+  box-shadow: 3px 3px #000;
+}
+#loginbtntoggle {
+  top: 10px;
+  right: 3vw;
+  box-shadow: 3px 3px #000;
+}
+
+#signupdiv > form > input,
+#logindiv > form > input {
+  margin-left: 2.8vw;
+  width: 28vw;
+  height: 4vh;
+  margin-top: 3vh;
+}
+
+#logindiv > form > input {
+  margin-top: 25px;
+}

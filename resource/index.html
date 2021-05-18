@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style01.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <link href="assets/img/softrateicon.jpg" rel="icon" />
+
+    <title>Blog sample</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Playfair+Display:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="./assets/css/navcss.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/footercss.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+    <link rel="stylesheet" href="./assets/styleForLoginPage.css" />
+  </head>
+
+  <!-- ======= Body Section ======= -->
+
+  <body>
+    <br /><br /><br />
+    <!-- Part-2 Begins -->
+
+    <div id="content-part-2">
+      <div id="main-container" style="position: relative">
+        <div class="main-part-front">
+          <div id="part-1" class="front-div">
+            <img src="./assets/con1_image.jpg" alt="" />
+            <div class="content-f">
+              Never let your memories be greater than your dreams
+            </div>
+          </div>
+          <div id="part-2" class="front-div">
+            <img src="./assets/con2_image.jpg" alt="" />
+            <div class="content-f">
+              Self-observation is the first of inner unfolding
+            </div>
+          </div>
+          <div id="part-3" class="front-div">
+            <img src="./assets/con3_image.jpg" alt="" />
+            <div class="content-f">
+              The mind and body are not separate.<br />
+              what affects one,<br />
+              affects the other
+            </div>
+          </div>
+          <script src="./assets/js01.js"></script>
+        </div>
+        <div id="front-left-btn-outer">
+          <button id="front-left-btn" onclick="demol()">&lt;</button>
+        </div>
+        <div id="front-right-btn-outer">
+          <button id="front-right-btn" onclick="demor()">></button>
+        </div>
+      </div>
+    </div>
+
+    <div id="content-part-3">
+      <section id="blog" class="blog" data-aos="fade-up">
+        <!-- <div class="toptitle" id="toptitle">AR and VR</div> -->
+        <!-- <div class="container">
+          <div class="toptitle" id="toptitle">
+            <a href="Blog_Page.html">AR and VR</a>
+          </div>
+          <img
+            src="assets/img/ar.jpeg"
+            alt="Avatar"
+            class="image"
+            style="width: 100%"
+          />
+          <div class="middle">
+            <div class="text">
+              <a href="Blog_Page.html"
+                >Virtual Reality is the first step in a grand adventure into the
+                landscape of the imagination</a
+              >
+              <div class="details">
+                <div>
+                  <span class="material-icons">hourglass_full</span>5 mins
+                </div>
+                <div>
+                  <span class="material-icons">calendar_today</span>16 April
+                  2021
+                </div>
+                <div style="font-family: Roboto, serif; font-size: 25px">
+                  <b>by ABC</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </section>
+    </div>
+
+    <!-- <div id="meow"></div> -->
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+      </span>
+      <a
+        href="Blog_Page.html"
+        class="logo"
+        style="font-size: 35px; font-weight: bold; color: #fff"
+        >Softrate</a
+      >
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="#" class="nav-links"><i class="fa fa-fw fa-home"></i>Home</a>
+        </li>
+        <li>
+          <a href="#" class="nav-links">Create a Blog</a>
+        </li>
+        <li>
+          <a href="#" class="nav-links">Categories</a>
+        </li>
+        <li>
+          <a href="#" onclick="viewloginpage()" class="nav-links"
+            ><i class="fa fa-fw fa-user"></i>Login</a
+          >
+        </li>
+        <li>
+          <a href="#" class="nav-links subscribe">Subscribe</a>
+        </li>
+      </ul>
+    </nav>
+
+    <form>
+      <div class="news">
+        <h2 style="padding-bottom: 5px">Subscribe to our Newsletter</h2>
+
+        <div class="news" style="background-color: white">
+          <input type="text" placeholder="Name" name="name" required />
+          <input type="text" placeholder="Email address" name="mail" required />
+        </div>
+
+        <div class="news">
+          <input type="submit" value="Subscribe" />
+        </div>
+      </div>
+    </form>
+
+    <footer class="shan-footer">
+      <div class="l-shan-footer">
+        <h1>Softrate</h1>
+        <p>
+          SOFTRATE is a dynamic Indian startup that helps you in molding your
+          profile and tech requirements in a user friendly and creative way. We
+          actually play the role of satisfying customer requirements of
+          technical help & Support
+        </p>
+      </div>
+      <ul class="r-shan-footer">
+        <li>
+          <h2>Social</h2>
+          <ul class="shan-box">
+            <li><a href="#">Linkedln</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </li>
+        <li class="shan-features">
+          <h2>Information</h2>
+          <ul class="shan-box h-shan-box">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Create a Blog</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Signup</a></li>
+            <li><a href="#">Customer Service</a></li>
+          </ul>
+        </li>
+        <li>
+          <h2>Legal</h2>
+          <ul class="shan-box">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="b-shan-footer">
+        <p>All rights reserved by ©Softrate 2021</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+      let mainNav = document.getElementById("js-menu");
+      let navBarToggle = document.getElementById("js-navbar-toggle");
+
+      navBarToggle.addEventListener("click", function () {
+        mainNav.classList.toggle("active");
+      });
+    </script>
+
+    <div id="login-container">
+      <div id="login-main-container">
+        <div id="toggleButton">
+          <button id="signupbtntoggle" onclick="gotosignup()">Sign up</button>
+          <button id="loginbtntoggle" onclick="gotologin()">Login in</button>
+        </div>
+        <div id="signupdiv">
+          <form action="">
+            <input type="text" placeholder="First Name" />
+            <br />
+            <input type="text" placeholder="Last Name" />
+            <br />
+            <input type="text" placeholder="Email address" />
+            <br />
+            <input type="password" placeholder="Password" />
+            <button id="createAccBtn">Create account</button>
+          </form>
+        </div>
+        <div id="logindiv">
+          <form method="POST" Content-Type: "application/json" action="/login">
+            <input type="text" placeholder="User Name" name="usrname" />
+            <br />
+            <input type="password" placeholder="Password" name="password" />
+            <!-- <button type="submit" id="loginbtn">Login</button> -->
+            <input type="submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/jsForloginpage.js"></script>
+    <script src="./env.local/blogs.js"></script>
+
+    <script src="./dynamic.js"></script>
+  </body>
+</html>
