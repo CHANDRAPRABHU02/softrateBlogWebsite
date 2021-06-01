@@ -1,66 +1,198 @@
 [{
-    "title": "CYBERSECURITY",
-    "introduction": "Cyber security is preparing for what’s next, not what was last. Cybersecurity may be fought with technology, but it is people who triumph. We must invest in the future generations of professionals who will carry on the fight.",
-    "img_src": {
-        "landing_img": "",
-        "cont_img1": "",
-        "cont_img2": ""
-    },
-
-    "paragraph_1": {
-        "intro": "Cybersecurity is the science of protecting networks, computers, programs and data from attack, damage or unauthorized access.",
-        "intro_points": {
-            "first": "•Knowing what to do ---- science of cybersecurity",
-            "second": "•Knowing how to do ---- engineering of cybersecurity"
+        "title": "AR and VR",
+        "introduction": "AR and VR is preparing for what’s next, not what was last. Cybersecurity may be fought with technology, but it is people who triumph. We must invest in the future generations of professionals who will carry on the fight.",
+        "img_src": {
+            "landing_img": "",
+            "cont_img1": "",
+            "cont_img2": ""
         },
-        "para_cont": {
-            "point_1": "Defining cybersecurity more technically “It is a ability to protect or defend the use of cyberspace from cyberattacks.” ",
-            "point_2": "Cyberspace: It is a  global domain within the information environment consisting of the interdependent network of information systems infrastructure  including the Internet, computer systems, telecommunication networks."
-        }
-    },
 
-    "included": ["Virus", "Hacker", "Trojan Horses", "Malware", "Password Cracking"],
-    "sub_cont": {
-        "topic_1": {
-            "title": "VIRUS",
-            "content": "A computer virus is a malicious program loaded into a user’s computer without knowledge and runs against your wish. These virus are self-replicating and also designed to infect other programs.",
-            "img": ""
-        },
-        "topic_2": {
-            "title": "HACKER",
-            "included": ["White Hat Hacker", "Grey Hat Hacker", "Black Hat Hacker"],
-            "img": "",
-            "included_para": {
-                "topic_1": {
-                    "title": "White Hat Hacker",
-                    "cont_points": [
-                        "•They are considered as good guys because they follow the rules when it comes to hacking",
-                        "•People who specialized hacking check the faults of the systems.",
-                        "•In other words ,white hat hackers are the opposite of the black hat hackers. They’re the “ethical hackers”, experts in compromising computer security systems who use their abilities for good, ethical, and  legal purposes rather than bad, unethical, and criminal purposes."
-                    ]
-                },
-                "topic_2": {
-                    "title": "GREY HAT HACKERS",
-                    "cont_points": [
-                        "They are both black and white hat",
-                        "These type of hackers do not work for their own gain or to cause carnage but technically commit crimes and do arguably unethical things",
-                        "•Grey hats might not use their access for bad purposes but they still compromise cyber security without permission ,which is illegal."
-                    ]
-                },
-                "topic_3": {
-                    "title": "BLACK HAT HACKERS",
-                    "cont_points": [
-                        "•Black hat hackers are called as “cybercriminals”.",
-                        "•They are malicious hackers who break the law to achieve their goals.These hackers penetrate systems without permission to exploit known or zero -day vulnerabilities.",
-                        "Black hat hackers break into secure networks to destroy data or make the network unusable for those who are authorized to use the network"
-                    ]
-                }
+        "paragraph_1": {
+            "intro": "Cybersecurity is the science of protecting networks, computers, programs and data from attack, damage or unauthorized access.",
+            "intro_points": {
+                "first": "•Knowing what to do ---- science of cybersecurity",
+                "second": "•Knowing how to do ---- engineering of cybersecurity"
+            },
+            "para_cont": {
+                "point_1": "Defining cybersecurity more technically “It is a ability to protect or defend the use of cyberspace from cyberattacks.” ",
+                "point_2": "Cyberspace: It is a  global domain within the information environment consisting of the interdependent network of information systems infrastructure  including the Internet, computer systems, telecommunication networks."
             }
         },
-        "topic_3": {
-            "title": "VIRUS",
-            "content": "A computer virus is a malicious program loaded into a user’s computer without knowledge and runs against your wish. These virus are self-replicating and also designed to infect other programs.",
-            "img": ""
+
+        "included": ["Virus", "Hacker", "Trojan Horses", "Malware", "Password Cracking"],
+        "sub_cont": {
+            "topic_1": {
+                "title": "VIRUS",
+                "content": "A computer virus is a malicious program loaded into a user’s computer without knowledge and runs against your wish. These virus are self-replicating and also designed to infect other programs.",
+                "img": ""
+            },
+            "topic_2": {
+                "title": "HACKER",
+                "included": ["White Hat Hacker", "Grey Hat Hacker", "Black Hat Hacker"],
+                "img": "",
+                "included_para": {
+                    "topic_1": {
+                        "title": "White Hat Hacker",
+                        "cont_points": [
+                            "•They are considered as good guys because they follow the rules when it comes to hacking",
+                            "•People who specialized hacking check the faults of the systems.",
+                            "•In other words ,white hat hackers are the opposite of the black hat hackers. They’re the “ethical hackers”, experts in compromising computer security systems who use their abilities for good, ethical, and  legal purposes rather than bad, unethical, and criminal purposes."
+                        ]
+                    },
+                    "topic_2": {
+                        "title": "GREY HAT HACKERS",
+                        "cont_points": [
+                            "They are both black and white hat",
+                            "These type of hackers do not work for their own gain or to cause carnage but technically commit crimes and do arguably unethical things",
+                            "•Grey hats might not use their access for bad purposes but they still compromise cyber security without permission ,which is illegal."
+                        ]
+                    },
+                    "topic_3": {
+                        "title": "BLACK HAT HACKERS",
+                        "cont_points": [
+                            "•Black hat hackers are called as “cybercriminals”.",
+                            "•They are malicious hackers who break the law to achieve their goals.These hackers penetrate systems without permission to exploit known or zero -day vulnerabilities.",
+                            "Black hat hackers break into secure networks to destroy data or make the network unusable for those who are authorized to use the network"
+                        ]
+                    }
+                }
+            },
+            "topic_3": {
+                "title": "VIRUS",
+                "content": "A computer virus is a malicious program loaded into a user’s computer without knowledge and runs against your wish. These virus are self-replicating and also designed to infect other programs.",
+                "img": ""
+            }
+        }
+    }, {
+        "title": "CYBERSECURITY",
+        "introduction": "Cyber security is preparing for what’s next, not what was last. Cybersecurity may be fought with technology, but it is people who triumph. We must invest in the future generations of professionals who will carry on the fight.",
+        "img_src": {
+            "landing_img": "",
+            "cont_img1": "",
+            "cont_img2": ""
+        },
+
+        "paragraph_1": {
+            "intro": "Cybersecurity is the science of protecting networks, computers, programs and data from attack, damage or unauthorized access.",
+            "intro_points": {
+                "first": "•Knowing what to do ---- science of cybersecurity",
+                "second": "•Knowing how to do ---- engineering of cybersecurity"
+            },
+            "para_cont": {
+                "point_1": "Defining cybersecurity more technically “It is a ability to protect or defend the use of cyberspace from cyberattacks.” ",
+                "point_2": "Cyberspace: It is a  global domain within the information environment consisting of the interdependent network of information systems infrastructure  including the Internet, computer systems, telecommunication networks."
+            }
+        },
+
+        "included": ["Virus", "Hacker", "Trojan Horses", "Malware", "Password Cracking"],
+        "sub_cont": {
+            "topic_1": {
+                "title": "VIRUS",
+                "content": "A computer virus is a malicious program loaded into a user’s computer without knowledge and runs against your wish. These virus are self-replicating and also designed to infect other programs.",
+                "img": ""
+            },
+            "topic_2": {
+                "title": "HACKER",
+                "included": ["White Hat Hacker", "Grey Hat Hacker", "Black Hat Hacker"],
+                "img": "",
+                "included_para": {
+                    "topic_1": {
+                        "title": "White Hat Hacker",
+                        "cont_points": [
+                            "•They are considered as good guys because they follow the rules when it comes to hacking",
+                            "•People who specialized hacking check the faults of the systems.",
+                            "•In other words ,white hat hackers are the opposite of the black hat hackers. They’re the “ethical hackers”, experts in compromising computer security systems who use their abilities for good, ethical, and  legal purposes rather than bad, unethical, and criminal purposes."
+                        ]
+                    },
+                    "topic_2": {
+                        "title": "GREY HAT HACKERS",
+                        "cont_points": [
+                            "They are both black and white hat",
+                            "These type of hackers do not work for their own gain or to cause carnage but technically commit crimes and do arguably unethical things",
+                            "•Grey hats might not use their access for bad purposes but they still compromise cyber security without permission ,which is illegal."
+                        ]
+                    },
+                    "topic_3": {
+                        "title": "BLACK HAT HACKERS",
+                        "cont_points": [
+                            "•Black hat hackers are called as “cybercriminals”.",
+                            "•They are malicious hackers who break the law to achieve their goals.These hackers penetrate systems without permission to exploit known or zero -day vulnerabilities.",
+                            "Black hat hackers break into secure networks to destroy data or make the network unusable for those who are authorized to use the network"
+                        ]
+                    }
+                }
+            },
+            "topic_3": {
+                "title": "VIRUS",
+                "content": "A computer virus is a malicious program loaded into a user’s computer without knowledge and runs against your wish. These virus are self-replicating and also designed to infect other programs.",
+                "img": ""
+            }
+        }
+    },
+    {
+        "title": "Expert Systems",
+        "introduction": "Expert Systems is preparing for what’s next, not what was last. Cybersecurity may be fought with technology, but it is people who triumph. We must invest in the future generations of professionals who will carry on the fight.",
+        "img_src": {
+            "landing_img": "",
+            "cont_img1": "",
+            "cont_img2": ""
+        },
+
+        "paragraph_1": {
+            "intro": "Cybersecurity is the science of protecting networks, computers, programs and data from attack, damage or unauthorized access.",
+            "intro_points": {
+                "first": "•Knowing what to do ---- science of cybersecurity",
+                "second": "•Knowing how to do ---- engineering of cybersecurity"
+            },
+            "para_cont": {
+                "point_1": "Defining cybersecurity more technically “It is a ability to protect or defend the use of cyberspace from cyberattacks.” ",
+                "point_2": "Cyberspace: It is a  global domain within the information environment consisting of the interdependent network of information systems infrastructure  including the Internet, computer systems, telecommunication networks."
+            }
+        },
+
+        "included": ["Virus", "Hacker", "Trojan Horses", "Malware", "Password Cracking"],
+        "sub_cont": {
+            "topic_1": {
+                "title": "VIRUS",
+                "content": "A computer virus is a malicious program loaded into a user’s computer without knowledge and runs against your wish. These virus are self-replicating and also designed to infect other programs.",
+                "img": ""
+            },
+            "topic_2": {
+                "title": "HACKER",
+                "included": ["White Hat Hacker", "Grey Hat Hacker", "Black Hat Hacker"],
+                "img": "",
+                "included_para": {
+                    "topic_1": {
+                        "title": "White Hat Hacker",
+                        "cont_points": [
+                            "•They are considered as good guys because they follow the rules when it comes to hacking",
+                            "•People who specialized hacking check the faults of the systems.",
+                            "•In other words ,white hat hackers are the opposite of the black hat hackers. They’re the “ethical hackers”, experts in compromising computer security systems who use their abilities for good, ethical, and  legal purposes rather than bad, unethical, and criminal purposes."
+                        ]
+                    },
+                    "topic_2": {
+                        "title": "GREY HAT HACKERS",
+                        "cont_points": [
+                            "They are both black and white hat",
+                            "These type of hackers do not work for their own gain or to cause carnage but technically commit crimes and do arguably unethical things",
+                            "•Grey hats might not use their access for bad purposes but they still compromise cyber security without permission ,which is illegal."
+                        ]
+                    },
+                    "topic_3": {
+                        "title": "BLACK HAT HACKERS",
+                        "cont_points": [
+                            "•Black hat hackers are called as “cybercriminals”.",
+                            "•They are malicious hackers who break the law to achieve their goals.These hackers penetrate systems without permission to exploit known or zero -day vulnerabilities.",
+                            "Black hat hackers break into secure networks to destroy data or make the network unusable for those who are authorized to use the network"
+                        ]
+                    }
+                }
+            },
+            "topic_3": {
+                "title": "VIRUS",
+                "content": "A computer virus is a malicious program loaded into a user’s computer without knowledge and runs against your wish. These virus are self-replicating and also designed to infect other programs.",
+                "img": ""
+            }
         }
     }
-}]
+]

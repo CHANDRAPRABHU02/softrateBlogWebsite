@@ -1,3 +1,4 @@
+// Importing the required  modules
 const { response } = require("express");
 const express = require("express");
 const DB = require("nedb");
@@ -24,6 +25,7 @@ app.use(express.json({ limit: "1mb" }));
 app.listen(PORT, () => {});
 app.use(express.static("resource"));
 
+// This function returns a json of the blogs
 app.get("/getHomePage", cors(), (data, response) => {
   db.find({}, (err, data) => {
     if (err) {
@@ -72,6 +74,7 @@ uploadSingleFile = (curFile, res) => {
   }
 };
 
+// This function uploades the given post to the database
 app.post(
   "/upload",
   upload.fields([
@@ -108,6 +111,7 @@ app.post(
   }
 );
 
+// This function validates a login
 app.post("/login", (req, res) => {
   console.log(req.body);
   if (

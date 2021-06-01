@@ -1,3 +1,5 @@
+//This function returns difference between the current time and the blog posted tiem in a formated manner
+
 function formatDateDifference(postedTime, currentTime) {
   let dif = Date.now() - postedTime.getTime();
   dif /= 1000;
